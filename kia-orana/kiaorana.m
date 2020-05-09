@@ -11,13 +11,12 @@
 @end
 
 int main(void) {
-     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-     
-     KiaOrana *ko = [[KiaOrana alloc] init];
-     [ko kiaOrana];
-     [ko release];
-     
-     [pool drain];
+    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
     
+    KiaOrana *ko = [[KiaOrana alloc] init];
+    [ko kiaOrana];
+    [ko release];
+    
+    [pool drain];
     return 0;
 }
