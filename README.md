@@ -2,5 +2,5 @@
 A 'programming a day' repo for objective-c
 
 ```bash
-sudo apt-get –y install gobjc 
+$ sudo apt-get –y install gobjc 
 ```
